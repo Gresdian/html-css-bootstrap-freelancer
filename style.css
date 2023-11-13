@@ -2,39 +2,70 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
-    height:100px ;
     background-color: #2c3e50;
     align-items: center;
     display: flex;
 }
 
-.content{
-    height: 75px;
-    background-color: blue;
-}
 
 .red{
     height: 100px;
     background-color: red;
+    border: 1px dashed black;
 }
 
+
+ul{
+    list-style: none;
+}
+
+li{
+    margin: 5px;
+}
 .background-header{
     background-color: #2c3e50;
 }
 
 .jumbo{
     background-color: #1abc9c;
-    height: 500px;
 }
 
 .jumbotron{
-    height: 500px;
     background-color: #1abc9c;
+    width: 30%;
 }
 
+.star {
+    font-family: sans-serif;
+    margin:auto;
+    color: white;
+    max-width: 600px;
+    position: relative;
+  }
+.star:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: white;
+    left: 85px;
+    top: 50%;
+    position: absolute;
+  }
+.star:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: white;
+    right: 85px;
+    top: 50%;
+    position: absolute;
+  }
 
 .square-a{
     background-color: #ba4b63;
@@ -69,14 +100,23 @@ header{
 .contact{
     height: 400px;
     background-color: bisque;
+}ù
+
+.top-footer{
+    background-color:#3a546d;
 }
 
-.footer-top{
+.top-footer-content{
     background-color: #3a546d;
     height: 300px;
 }
 
+
 .bottom-footer{
+    background-color: #2c3e50;;
+}
+
+.bottom-footer-content{
     background-color: #2c3e50;
     height: 100px;
 }
