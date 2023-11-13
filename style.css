@@ -67,35 +67,34 @@ li{
     position: absolute;
   }
 
-.square-a{
-    background-color: #ba4b63;
-    height: 250px;
-}
+  .star-2 {
+    font-family: sans-serif;
+    margin:auto;
+    color: white;
+    max-width: 600px;
+    position: relative;
+  }
+.star-2:before {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: black;
+    left: 85px;
+    top: 50%;
+    position: absolute;
+  }
+.star-2:after {
+    content: "";
+    display: block;
+    width: 150px;
+    height: 5px;
+    background: black;
+    right: 85px;
+    top: 50%;
+    position: absolute;
+  }
 
-.square-b{
-    background-color: #1ea4b6;
-    height: 250px;
-}
-
-.square-c{
-    background-color: #140f0f;
-    height: 250px;
-}
-
-.square-d{
-    background-color: #1c83c1;
-    height: 250px;
-}
-
-.square-e{
-    background-color: #0e38b5;
-    height: 250px;
-}
-
-.square-f{
-    background-color: #ccb2a3;
-    height: 250px;
-}
 
 .contact{
     height: 400px;
